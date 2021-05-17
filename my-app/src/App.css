@@ -15,21 +15,40 @@
     font-size: 3rem;
   }
   
-  .resume {
-    background-image: url('Images/resume.PNG');
+  /* .resume {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+  } */
+  /* .resume-container {
+    width: 800px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+  } */
+  .resume-embed {
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  
-  .contact{
-    background-image: url('Images/img-1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+  .connect-container .social{
+    margin-left: auto;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+    float: right;
+
+  }
+
+  .connect-container .direct{
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+    float: left;
+
   }

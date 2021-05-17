@@ -1,11 +1,11 @@
 import React from 'react'
+import '../../App.css'
 
 function resume() {
     return (
-        <div>
-            <image src='/Images/resume.PNG'></image>
-        </div>
+        <>
+            <embed className='resume-embed' src="/Images/engelsResume.pdf" type="application/pdf" />
+        </>
     )
 }
-
 export default resume
