@@ -6,31 +6,22 @@ function connect() {
         <>
             <div className='connect-container'>
                 <div className='social'>
-                    <h2> Connect over social</h2>
                     <ul>
                     <li>
-                        <a href='https://www.linkedin.com/in/thomas-%E2%80%9Ctommy%E2%80%9D-engels-849966139/'>LinkedIn</a>
+                        <a href='https://www.linkedin.com/in/thomas-%E2%80%9Ctommy%E2%80%9D-engels-849966139/'><i class="fab fa-linkedin fa-3x"></i></a>
                     </li>
                     <li>
-                        <a href='/'>Instagram</a>
+                        <a href='/'><i class="fab fa-instagram-square fa-3x"></i></a>
                     </li>
                     <li>
-                        <a href='https://youtu.be/fI9hIJ-ZQmg'>YouTube Channel</a>
+                        <a href='https://youtu.be/fI9hIJ-ZQmg'><i class="fab fa-youtube fa-3x"></i></a>
                     </li>
-                    </ul>
-                </div>
-                <div className='direct'>
-                    <h2 > Connect directly </h2>
-                    <ul>
-                        <li>
-                            <a href='tel:6513951906'>Personal Number</a>
-                        </li>
-                        <li>
-                            <a href='mailto:tbengels@gmail.com'>Personal Email</a>
-                        </li>
-                        <li>
-                        
-                        </li>
+                    <li>
+                        <a title="(651)395-1906" href='tel:6513951906'><i class="fas fa-phone fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a title="tbengels@gmail.com" href='mailto:tbengels@gmail.com'><i class="fas fa-paper-plane fa-3x"></i></a>
+                    </li>
                     </ul>
                 </div>
             </div>

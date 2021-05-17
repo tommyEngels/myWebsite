@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from './components/pages/home'
 import resume from './components/pages/resume'
 import connect from './components/pages/connect'
+import Footer from './components/footer'
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path='/connect' exact component={ connect }/>
       </Switch>
     </Router>
+    <Footer />
     </>
   );
 }
