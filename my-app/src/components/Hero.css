@@ -15,12 +15,15 @@
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
+
 }
 
 .hero-container {
     color: white;
     font-size: 100px;
     margin-top: -20px;
+    padding: 10px;
+    
 }
 
 .hero-btns {
@@ -28,7 +31,19 @@
     padding: 20px;
   }
 
+.hero-btns .btn {
+    margin: 6px
+}
+.hero-btns .btn:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+}
+
 .p-tags{
     font-size: 20px;
 }
+
+
+
 

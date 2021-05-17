@@ -8,11 +8,18 @@ function Hero() {
         <div className='hero-container'>
             {/* <video src="Images/IMG-3268.mov" autoPlay loop muted /> */}
             <h3>Hello</h3>
-            <p className='p-tags'>Welcome to my MVP (minimum viable product) website!</p>
-            <div className='hero-btns'>
-                <Button className='btns' style="btn--outline" size='btn--large'>Let's connect! </Button>
+            <p className='p-tags'>Welcome to Tommy's MVP (minimum viable product) website!</p>
 
-                <Button className='btns' style="btn--primary" size='btn--large'> Follow me on social media! </Button>
+            <div className='hero-btns'>
+                <Button className='btns' 
+                buttonStyle="btn--outline" 
+                buttonSize='btn--large'>Let's connect! 
+                </Button>
+
+                <Button className='btns' 
+                buttonStyle="btn--outline" 
+                buttonSize='btn--large'> Follow me on social media! 
+                </Button>
             </div>
         </div>
     )
